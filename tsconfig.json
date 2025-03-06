@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "outDir": "./dist",
-    "rootDir": ".",
+    "rootDir": "./src",
     "strict": true,
     "esModuleInterop": true,
     "moduleResolution": "node",
@@ -10,6 +10,6 @@
     "target": "ES6" ,
     "types": ["node", "jest"]       
   },
-  "include": ["src/**/*", "knexfile.ts", "test/**/*"],  
+  "include": ["src/**/*", "knexfile.ts"],  
   "exclude": ["node_modules"]
 }
