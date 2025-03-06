@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": ".",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "module": "CommonJS",
+    "target": "ES6" ,
+    "types": ["node", "jest"]       
+  },
+  "include": ["src/**/*", "knexfile.ts", "test/**/*"],  
+  "exclude": ["node_modules"]
+}
