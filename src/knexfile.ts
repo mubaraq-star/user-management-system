@@ -66,6 +66,18 @@ const config: { [key: string]: Knex.Config } = {
       extension: "ts", 
     },
   },
+
+  production: {
+    client: "sqlite3",
+    connection: {
+      filename: "/opt/render/project/src/db/dev.sqlite3" 
+    },
+    useNullAsDefault: true,
+    migrations: {
+      directory: "./src/db/migration", 
+      extension: "ts"
+    }
+  }
 };
 
 export default config;
